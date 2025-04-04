@@ -9,6 +9,12 @@ header {
     border: 10px solid rgb(202, 150, 150);
 }
 
+body {
+    background-color: rgb(114, 133, 128);
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
 nav {
     background-color: rgb(146, 109, 180);
     color: black;
@@ -16,7 +22,8 @@ nav {
     font-weight: bold;
     font: Arial;
     text-decoration: none;
-    border: 10px solid rgb(165, 86, 86);
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
 }
 
 nav li a {
@@ -36,11 +43,15 @@ nav li {
     font-weight: bold;
     font: Arial;
     text-decoration: none;
-    border: 10px solid rgb(165, 86, 86);
+    margin: 20px 20px 20px 20px;
+    padding: 20px 20px 20px 20px;
+    box-shadow: 5px 5px 5px 5px rgb(184, 150, 150);
+    border-radius: 10px;
 }
 
 #intro h2 {
     text-align: center;
+    font-weight: 200px;
 }
 
 #intro h1 {
@@ -64,7 +75,6 @@ nav li {
     font-weight: 100;
     font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
-    border: 15px solid rgb(165, 86, 86);
 }
 
 #Best-Sellers {
@@ -74,39 +84,42 @@ nav li {
     font-weight: 200;
     font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
-    border: 15px solid rgb(165, 86, 86);
 }
 
 #Teachers-Section {
-    background-color: rgb(204, 139, 139);
+    background-color: rgb(60, 81, 85);
     color: black;
     font-size: 15px;
     font-weight: 200;
     font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
-    border: 15px solid rgb(165, 86, 86);
+    text-align: center;
+    box-shadow: 50px 50px 50px 50px rgb(180, 137, 137);
 }
 
 #Teachers-Section h3 {
-    background-color: rgb(204, 139, 139);
+    background-color: rgb(42, 65, 60);
     color: black;
     font-size: 20px;
     font-weight: bold;
     font-style :normal;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-decoration: none;
-    border: 10px solid rgb(165, 86, 86);
+    margin: 10px 10px 10px 10px;
+    text-align: center;
 }
 
 #Book-Review {
-    background-color: rgb(160, 95, 95);
+    background-color: rgb(61, 80, 82);
     color: black;
     font-size: 15px;
     font-weight: 200;
     font-style: italic;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-decoration: none;
-    border: 15px solid rgb(165, 86, 86);
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    margin: 10px 10px 10px 10px;
 }
 
 #relative-videos {
@@ -116,25 +129,50 @@ nav li {
     font-weight: 200;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-decoration: none;
-    border: 15px solid rgb(165, 86, 86);
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+}
+
+#opening-timings {
+    background-color: rgb(67, 182, 176);
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 200;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+    box-shadow: 5px 5px 5px 5px rgb(158, 121, 121);
+    border-radius: 20px;
+}
+
+table, th, td {
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 1px;
+    text-align: center;
 }
 
 #Best-Sellers {
-    background-color: rgb(172, 101, 101);
+    background-color: rgb(128, 158, 161);
     color: black;
     font-size: 20px;
-    font-weight: bold;
+    font-weight: 200px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-decoration: none;
-    border: 10px solid rgb(165, 86, 86);
+    margin: 20px 20px 20px 20px;
+    padding: 20px 20px 20px 20px;
+    box-shadow: 5px 5px 5px 5px rgb(107, 101, 101);
+    box-radius: 20px;
 }
-
 footer {
-    background-color: rgb(255, 255, 255);
-    color: black;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 15px;
     font-weight: 100;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-decoration: none;
-    border: 10px solid rgb(180, 169, 169);
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
 }
