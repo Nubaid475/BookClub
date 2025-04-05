@@ -6,6 +6,10 @@ header {
     text-align: center;
     font-size: medium;
     text-decoration: none;
+    margin: 10px 10px 10px 10px;
+    padding: 20px 20px 20px 20px;
+    box-shadow: 10px 10px 10px 10px rgb(184, 171, 171);
+    border-radius: 2px;
 }
 
 header h1 {
@@ -23,16 +27,24 @@ nav {
     font: 200px;
     text-decoration: none;
     font-style: normal;
+    margin : 20px 20px 20px 20px;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 10px 10px 10px 10px rgb(184, 171, 171);
+    border-radius: 5px;
 }
 
 #intro {
     background-color: rgb(105, 126, 119);
     color: blanchedalmond;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    border: 10px brown solid;
     border-radius: 2px;
     font-weight: 150px;
     text-decoration: none;
+    text-align: center;
+    margin: 20px 20px 20px 20px;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 2px 2px 2px 2px rgb(184, 171, 171);
+    border-radius: 3px;
 }
 
 #intro h2 {
@@ -40,15 +52,50 @@ nav {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-#Main-Section {
-    background-color: bisque;
+.Main-Section {
+    background-color: rgb(204, 171, 130);
     color: brown;
-    border: 10px rgb(202, 174, 174) solid;
     border-radius: 2 px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: 2px 2px 2px 2px rgb(184, 171, 171);
+    border-radius: 3px;
+    margin: 20px 20px 20px 20px;
+    padding: 20px 20px 20px 20px;
+}
+
+#Types-of-cuisines {
+    background-color: rgb(122, 187, 165);
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 2px;
+    font-weight: 150px;
+    text-decoration: none;
+    margin: 10,10;
+    margin-top: 20;
+    margin-bottom: 20;
+    box-shadow: 3px 3px 3px 3px rgb(184, 171, 171);
+    border-radius: 3px;
+    text-decoration: none;
+    font-style: normal;
+}
+
+.Relative-videos {
+    background-color: rgb(82, 126, 124);
+    color: brown;
+    border-radius: 2 px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: 2px 2px 2px 2px rgb(184, 171, 171);
+    border-radius: 3px;
+    margin: 20px 20px 20px 20px;
+    padding: 20px 20px 20px 20px;
 }
 
 .footer {
-     background-color: bisque;
-     color: brown;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 200px;
+    margin: 20px 20px 20px 20px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
 }
