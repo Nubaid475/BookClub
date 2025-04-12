@@ -10,7 +10,7 @@ header {
     padding: 20px 20px 20px 20px;
     box-shadow: 10px 10px 10px 10px rgb(184, 171, 171);
     border-radius: 2px;
-    paostion: relative;
+    position: relative;
 }
 
 header h1 {
@@ -30,13 +30,24 @@ nav {
     font-style: normal;
     margin : 20px 20px 20px 20px;
     padding: 10px 10px 10px 10px;
-    box-shadow: 10px 10px 10px 10px rgb(184, 171, 171);
     border-radius: 5px;
     position: sticky;
     z-index: 1;
     top: 0;
 }
 
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid rgb(184, 171, 171);
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px;
+    margin: 0;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+}
 #intro {
     background-color: rgb(105, 126, 119);
     color: blanchedalmond;
@@ -92,6 +103,8 @@ nav {
     border-radius: 3px;
     margin: 20px 20px 20px 20px;
     padding: 20px 20px 20px 20px;
+    display: flex;
+    justify-content: space-around;
 }
 
 .footer {
